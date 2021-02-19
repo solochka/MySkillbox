@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.heading{
+  color: white;
+  font-family: 'Graphik LCG', sans-serif;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.link-doc{
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: solid 3px #2f1ce4;
+}
+
+.link-course{
+  padding: 20px;
+  color: white;
+  background-color: transparent;
+  border: solid 3px white;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.heading-h2{
+  padding-left: 180px;
+  color: #2f1ce4;
+  font-size: 36px;
+  margin: 100px 0 25px 0;
+}
+
+.list{
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.text{
+padding-left: 180px;
+margin-bottom: 18px;
+}
+
+table, td, th {
+  border: 1px solid #000;
+}
+
+table {
+  margin-top: 100px;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 5px;
+}
+
+.image{
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 0;
+}
+
+.icon{
+  background-image: url(../img/return.png);
+  padding-left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 390px;
+}
+
+/* стили для Module страницы */
+
+.module-fone{
+
+
+  background: url(../img/wave.png) right bottom no-repeat;
+  background-size: 100%;
+  padding-bottom: 600px;
+}
+
+.container-module{
+  margin: 44px;
+}
+
+.text-kurs{
+  margin-left: 54px;
+  margin-bottom: 48px;
+  color:#222020;
+  font-family: "Gilroy";
+  font-size:48px;
+  text-align:left;
+}
+
+.module{
+  padding: 0;
+  background-size: cover;
+}
+
+ol>li.module-item{
+
+  display: inline-block;
+  box-shadow: 0 0 10px #222020;
+  margin: 30px;
+  min-width: 479px;
+  min-height: 506px;
+  max-height: 506px;
+  list-style-type: none;
+}
+
+.image-module1{
+ background-image: url(../img/slider2.jpeg);
+ }
+
+.image-module2{
+  background-image: url(../img/slider3.jpeg);
+}
+
+.image-module3{
+  background-image: url(../img/slider4.jpeg);
+  background-size: 270%;
+  background-position-y: -440px;
+  background-position-x: -305px;
+}
+
+.image-module4{
+  background-image: url(../img/slider1.jpeg);
+  background-size: 100%;
+  background-position-y: -174px;
+}
+
+.number{
+  text-align: right;
+  padding-right:25px;
+  background-color: #FFFFFF;
+  padding-bottom: 29px;
+}
+
+.spisok{
+  list-style-type: none;
+  background-color: #FFFFFF;
+  margin-top: 181px;
+  min-height: 257px;
+  line-height: 2;
+}
+
+.kaption-spisok{
+  padding-top: 29px;
+  color: #2F1CE4;
+  font-family: "Gilroy-ExtraBold,AdobeInvisFont,MyriadPro-Regular";
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.knopka{
+  text-align: center;
+}
+
+.button-module{
+  color: #2f1ce4;
+  border: solid 3px #2f1ce4;
+  height: 81px;
+  width: 281px;
+  margin: 36px;
+}
