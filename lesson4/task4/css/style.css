@@ -193,10 +193,16 @@ ol>li.module-item{
 }
 
 .number{
+  font-family: "Gilroy";
+  font-size: 48px;
+  color: #eaeaea;
+  font-weight: 500;
   text-align: right;
   padding-right:25px;
   background-color: #FFFFFF;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
+  margin-top:0;
+  height: 70px;
 }
 
 .spisok{
